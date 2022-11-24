@@ -20,7 +20,6 @@ body {
 	background-color: $dark;
 }
 
-
 h1.company-name {
 	margin-bottom: 0.5em;
 	font-size: 3rem;
@@ -100,7 +99,7 @@ h1.company-name {
 }
 
 .hamburger {
-	position: absolute;
+	position: fixed;
 	top: 3em;
 	left: 1em;
 	transform: translateY(-50%);
@@ -116,7 +115,7 @@ h1.company-name {
 
 .nav {
 	&-mobile {
-		position: absolute;
+		position: fixed;
 		left: 0;
 		right: 0;
 		top: 0;
@@ -153,7 +152,6 @@ h1.company-name {
 		&:hover {
 			color: $gold;
 		}
-
 	}
 }
 
